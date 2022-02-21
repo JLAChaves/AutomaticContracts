@@ -6,7 +6,6 @@ namespace AutomaticContracts
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Contract data");
         }
     }
 }
