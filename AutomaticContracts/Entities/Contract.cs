@@ -14,6 +14,7 @@ namespace AutomaticContracts.Entities
             Number = number;
             Date = date;
             TotalValue = totalValue;
+            Installments = new List<Installment>();
         }
 
         public void AddInstallment(Installment installment)

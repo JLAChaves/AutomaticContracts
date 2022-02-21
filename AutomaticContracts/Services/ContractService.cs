@@ -22,9 +22,7 @@ namespace AutomaticContracts.Services
                 double updateQuota = basicQuota + _onlinePaymentService.interest(basicQuota, i);
                 double fullQuota = updateQuota + _onlinePaymentService.PaymentFee(updateQuota);
 
-                contract.AddInstallment(new Installment(date, fullQuota))
-
-
+                contract.AddInstallment(new Installment(date, fullQuota));
             }
         }
     }
